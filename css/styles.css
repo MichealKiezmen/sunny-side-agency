@@ -1,0 +1,307 @@
+/* GLOBAL CSS */
+
+.align-inner-text {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+@font-face {
+    src: url("../fonts/Barlow/Barlow-ExtraBold.ttf");
+    font-family: pac;
+}
+
+@font-face {
+    src: url("../fonts/Barlow/Barlow-Light.ttf");
+    font-family: thin-pac;
+}
+
+@font-face {
+    src: url("../fonts/Barlow/Barlow-Medium.ttf");
+    font-family: black-thin-pac;
+}
+
+@font-face {
+    src: url("../fonts/Fraunces/static/Fraunces_72pt/Fraunces_72pt-ExtraBold.ttf");
+    font-family: pact;
+}
+
+@font-face {
+    src: url("../fonts/Fraunces/static/Fraunces_48pt/Fraunces_48pt-Bold.ttf");
+    font-family: pact-bold;
+}
+
+/*              NAVIGATION MENU               */
+
+.navbar .navbar-brand {
+    color: white;
+}
+
+.nav-header {
+    background: url("../images/mobile/image-header.jpg") no-repeat center center/cover;
+    padding: 10px 10px 50px;
+}
+
+.nav-list-align {
+    text-align: center;
+    padding: 30px 90px;
+}
+
+.nav-list-align li a {
+    margin: 5px;
+}
+
+.navbar-collapse {
+    margin: 20px 5px;
+    background-color: white;
+}
+
+.navbar-collapse a {
+    color: black;
+}
+.navbar-collapse a:hover {
+    opacity: 0.7;
+    color: black;
+}
+
+
+
+.navbar-collapse a,
+footer ul li a {
+    font-family: thin-pac;
+    font-weight: 600;
+}
+
+.contact-link {
+    background-color: hsl(51, 100%, 49%);
+    border-radius: 30px;
+    padding: 10px 2px;
+}
+
+.contact-link:hover {
+    opacity: 0.6;
+}
+
+.nav-header h1 {
+    text-align: center;
+    margin: 30px 20px 180px;
+    font-family: pact;
+    letter-spacing: 3.0px;
+}
+
+.navbar-brand,
+footer h3 {
+    font-family: pac;
+    font-weight: 600;
+}
+
+/*                      EGG SECTION                                  */
+
+.egg-section img,
+.wine-cup-section img {
+    width: 100%;
+}
+
+/*                      TRANSFORM YOUR BRAND SECTION                 */
+
+.brand-text {
+    color: hsl(167, 40%, 24%);
+}
+
+.brand-text h6 {
+    margin: 10px;
+}
+
+.brand-text h3,
+.brand-text h6 {
+    font-family: pact-bold;
+}
+
+.brand-text p {
+    font-family: black-thin-pac;
+    color: hsl(210, 4%, 67%);
+}
+
+.brand-text h6 a {
+    border-bottom: 4px hsl(51, 100%, 49%, 0.5) solid;
+    color: hsl(167, 40%, 24%);
+}
+
+.brand-text h6 a:hover {
+    border-bottom: 4px hsl(51, 100%, 49%, 1.0) solid;
+}
+
+.brand-text h6 .soft-pink {
+    border-bottom: 4px hsl(7, 99%, 70%, 0.5) solid;
+}
+
+.brand-text h6 .soft-pink:hover {
+    border-bottom: 4px hsl(7, 99%, 70%, 1.0) solid;
+}
+
+.brand-text,
+.brand-text1 {
+    background-color: #fff4f4;
+}
+
+/*          CHERRY AND ORANGE SECTION               */
+
+.cherry-section,
+.orange-section {
+    position: relative;
+}
+
+.cherry-section div,
+.orange-section div {
+    text-align: center;
+    z-index: 2;
+    position: absolute;
+    bottom: 0;
+    left: -0px;
+    height: 25%;
+}
+
+.cherry-section div h3,
+.cherry-section div p,
+.orange-section div h3,
+.orange-section div p {
+    margin: 10px;
+    color: hsl(167, 40%, 24%);
+    font-family: black-thin-pac;
+}
+
+.cherry-section img,
+.orange-section img {
+    width: 100%;
+}
+
+/*                  CLIENT REVIEW SECTION            */
+
+.reviews-arrangement {
+    padding: 15px 40px;
+}
+
+.client-review {
+    color: hsl(167, 40%, 24%);
+}
+
+.client-review h5 {
+    margin: 30px 10px 70px;
+    color: hsl(210, 4%, 67%);
+    font-family: black-thin-pac;
+    letter-spacing: 3.0px;
+}
+
+.client-review img {
+    border-radius: 100%;
+    height: 70px;
+}
+
+.client-review h4 {
+    font-family: pact-bold;
+}
+
+.client-review p {
+    font-family: thin-pac;
+}
+
+.client-review div .review-text {
+    margin: 25px 10px;
+    color: hsl(198, 62%, 26%);
+    font-family: black-thin-pac;
+}
+
+.client-review div {
+    margin: 40px 10px;
+}
+
+/*          PICTURES VARIETY             */
+
+.pic-variety img {
+    width: 50%;
+    float: left;
+}
+
+/*          FOOTER SECTION           */
+
+footer {
+    text-align: center;
+    padding: 30px 5px;
+    clear: both;
+    color: hsl(167, 40%, 24%);
+    background-color: #98BEB6;
+}
+
+footer h3 {
+    margin: 30px;
+}
+
+footer ul {
+    list-style-type: none;
+    margin: 40px 10px;
+}
+
+footer ul li {
+    display: inline;
+}
+
+footer ul li a {
+    margin: 13px;
+}
+
+footer a,
+footer a i {
+    color: hsl(167, 40%, 24%);
+}
+
+footer ul li a:hover,
+footer ul li a i:hover {
+    color: #F8F7F7;
+    opacity: 0.7;
+}
+
+/*              DESKTOP VIEW                 */
+
+@media all and (min-width: 900px) {
+    body {
+        padding: 20px 300px;
+    }
+    .navbar-collapse {
+        background-color: transparent;
+    }
+    .navbar-collapse a{
+        color: white;
+    }
+    .navbar-collapse a:hover {
+        opacity: 0.7;
+        color: white;
+    }
+    .nav-list-align {
+        padding: 0;
+    }
+    .nav-header {
+        background: url("../images/desktop/image-header.jpg") no-repeat center center/cover;
+    }
+    .contact-link {
+        background-color: #35CFF5;
+        padding: 10px;
+    }
+    .egg-brand-section,
+    .wine-cup-standout-section,
+    .cherry-orange,
+    .reviews-arrangement {
+        display: flex;
+    }
+    .egg-brand-section {
+        flex-direction: row-reverse;
+    }
+    .brand-text {
+        width: 94%;
+    }
+    .pic-variety img {
+        width: 25%;
+    }
+}
